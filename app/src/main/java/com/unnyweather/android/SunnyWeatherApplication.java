@@ -12,7 +12,8 @@ public class SunnyWeatherApplication extends Application {
     static public Context context;
     @Override
     public void onCreate() {
-        super.onCreate(
+        super.onCreate();
         context =getApplicationContext();
     }
+
 }
